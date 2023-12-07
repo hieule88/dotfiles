@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-dotdir=$(dirname "$0")
+dotdir=$(cd "$(dirname "$0")" && pwd)
 
 dotfiles=(
     .bashrc
