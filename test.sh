@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-echo $(dirname "$0")
+script_dir=$(cd "$(dirname "$0")" && pwd)
+
+echo $script_dir
