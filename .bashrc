@@ -1,0 +1,5 @@
+alias tls="tmux ls"
+alias ..="cd .."
+alias nh="nohup"
+alias cls="clear"
+PS1="\w > "
